@@ -19,6 +19,12 @@ public class Database extends SQLiteOpenHelper {
     public static final String ATTENDANCE_TABLE = "attendance_table";
     public static final String STUDENT_COURSE_TABLE = "student_course_table";
 
+    //for user able
+    public static final String uid = "uid";
+    public static final String user_name = "user_name";
+    public static final String password = "password";
+    public static final String type = "type";
+
     //for student table
     public static final String sid = "sid";
     public static final String student_name = "student_name";
@@ -40,6 +46,8 @@ public class Database extends SQLiteOpenHelper {
     public static final String s_id = "s_id";
     public static final String date = "date";
     public static final String absent = "absent";
+
+    //Database variables
     public SQLiteDatabase db;
     public ContentValues cv;
 
